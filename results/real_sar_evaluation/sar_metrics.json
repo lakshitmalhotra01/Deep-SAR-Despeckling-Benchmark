@@ -1,0 +1,62 @@
+{
+  "Sentinel-1 VV": {
+    "sensor": "Sentinel-1 (C-band)",
+    "polarization": "VV",
+    "ENL_noisy": 1.32,
+    "ENL_denoised": 2.41,
+    "ENL_ratio": 1.83,
+    "EPI": 0.8404,
+    "SSI": 0.7652,
+    "SMPI": 1.0339
+  },
+  "Sentinel-1 VH": {
+    "sensor": "Sentinel-1 (C-band)",
+    "polarization": "VH",
+    "ENL_noisy": 1.1,
+    "ENL_denoised": 2.11,
+    "ENL_ratio": 1.91,
+    "EPI": 0.8357,
+    "SSI": 0.7319,
+    "SMPI": 1.0127
+  },
+  "UAVSAR HH": {
+    "sensor": "UAVSAR (L-band)",
+    "polarization": "HH",
+    "ENL_noisy": 1.29,
+    "ENL_denoised": 2.83,
+    "ENL_ratio": 2.2,
+    "EPI": 0.8072,
+    "SSI": 0.6887,
+    "SMPI": 1.0218
+  },
+  "UAVSAR HV": {
+    "sensor": "UAVSAR (L-band)",
+    "polarization": "HV",
+    "ENL_noisy": 0.79,
+    "ENL_denoised": 2.13,
+    "ENL_ratio": 2.7,
+    "EPI": 0.7598,
+    "SSI": 0.6015,
+    "SMPI": 0.9888
+  },
+  "UAVSAR VH": {
+    "sensor": "UAVSAR (L-band)",
+    "polarization": "VH",
+    "ENL_noisy": 0.74,
+    "ENL_denoised": 2.17,
+    "ENL_ratio": 2.92,
+    "EPI": 0.7587,
+    "SSI": 0.5806,
+    "SMPI": 0.9925
+  },
+  "UAVSAR VV": {
+    "sensor": "UAVSAR (L-band)",
+    "polarization": "VV",
+    "ENL_noisy": 1.23,
+    "ENL_denoised": 3.08,
+    "ENL_ratio": 2.5,
+    "EPI": 0.7964,
+    "SSI": 0.6384,
+    "SMPI": 1.0098
+  }
+}

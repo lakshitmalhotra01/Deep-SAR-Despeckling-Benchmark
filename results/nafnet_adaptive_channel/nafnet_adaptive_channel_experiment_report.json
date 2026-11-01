@@ -1,0 +1,32 @@
+{
+    "model_name": "NAFNet-AdaptiveChannel",
+    "phase": 2,
+    "model_id": "M4",
+    "total_parameters": 2909891,
+    "epochs_completed": 100,
+    "best_epoch": 100,
+    "best_val_psnr": 38.4013,
+    "best_val_ssim": 0.9395,
+    "total_training_time_seconds": 27506.2,
+    "avg_epoch_time_seconds": 275.06200000000007,
+    "loss_type": "CombinedL1SSIMLoss (0.84*L1 + 0.16*(1-SSIM))",
+    "optimizer": "AdamW (lr=5e-4, wd=1e-4)",
+    "scheduler": "CosineAnnealingLR (T_max=100)",
+    "hardware": "cuda",
+    "test_results": {
+        "mean_psnr": 38.36480827756408,
+        "median_psnr": 38.09184271960201,
+        "std_psnr": 2.9568700440942886,
+        "min_psnr": 26.211026749928617,
+        "max_psnr": 51.30772793065381,
+        "mean_ssim": 0.9389292293190956,
+        "median_ssim": 0.9430634379386902,
+        "std_ssim": 0.027480635171222515,
+        "min_ssim": 0.8216924667358398,
+        "max_ssim": 0.9952963590621948,
+        "mean_pixel_accuracy": 0.9920672041177749,
+        "mean_pixel_precision": 0.9920672041177749,
+        "mean_pixel_recall": 0.9920672041177749,
+        "total_test_images": 1000
+    }
+}

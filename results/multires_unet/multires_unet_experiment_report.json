@@ -1,0 +1,52 @@
+{
+    "model": "Multi-Resolution U-Net (MultiResUNet)",
+    "total_params": 14354925,
+    "trainable_params": 14354925,
+    "dataset_split": {
+        "train": 3500,
+        "val": 500,
+        "test": 1000
+    },
+    "preprocessing": {
+        "size": 256,
+        "channels": 3,
+        "range": "[0, 1]"
+    },
+    "speckle_noise": {
+        "model": "Gamma Multiplicative",
+        "L": 4
+    },
+    "hyperparameters": {
+        "epochs_configured": 100,
+        "epochs_run": 40,
+        "val_every": 10,
+        "early_stopping_patience": 100,
+        "batch_size": 8,
+        "learning_rate": 0.0005,
+        "optimizer": "AdamW",
+        "weight_decay": 0.0001,
+        "scheduler": "CosineAnnealingLR",
+        "loss": "0.84 * L1 + 0.16 * (1 - SSIM)"
+    },
+    "training_stats": {
+        "total_time_sec": 8387.1,
+        "avg_epoch_time_sec": 209.68,
+        "final_train_loss": 0.02651,
+        "final_val_loss": 0.0215,
+        "best_epoch": 30,
+        "best_val_psnr": 35.81,
+        "best_val_ssim": 0.9267
+    },
+    "test_results": {
+        "test_count": 1000,
+        "mean_psnr": 36.52469691414606,
+        "median_psnr": 36.54411841652454,
+        "mean_ssim": 0.9264172457456589,
+        "median_ssim": 0.9302075505256653,
+        "mean_pixel_accuracy": 0.9875853213071824,
+        "mean_pixel_precision": 0.9875853213071824,
+        "mean_pixel_recall": 0.9875853213071824,
+        "threshold": 0.05
+    },
+    "device": "cuda"
+}

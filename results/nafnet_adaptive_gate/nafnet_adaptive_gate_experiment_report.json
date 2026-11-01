@@ -1,0 +1,61 @@
+{
+    "model": "NAFNet-AdaptiveGate (AGM \u2014 Phase 2 M2)",
+    "total_params": 3063939,
+    "trainable_params": 3063939,
+    "dataset_split": {
+        "train": 3500,
+        "val": 500,
+        "test": 1000
+    },
+    "preprocessing": {
+        "size": 256,
+        "channels": 3,
+        "range": "[0, 1]"
+    },
+    "speckle_noise": {
+        "model": "Gamma Multiplicative",
+        "L": 4
+    },
+    "hyperparameters": {
+        "epochs_configured": 100,
+        "epochs_run": 100,
+        "val_every": 10,
+        "early_stopping_patience": 100,
+        "batch_size": 4,
+        "grad_accum": 2,
+        "effective_batch_size": 8,
+        "learning_rate": 0.0005,
+        "optimizer": "AdamW",
+        "weight_decay": 0.0001,
+        "scheduler": "CosineAnnealingLR",
+        "loss": "0.84 * L1 + 0.16 * (1 - SSIM)",
+        "base_ch": 32,
+        "num_blocks": [
+            1,
+            1,
+            1,
+            4
+        ]
+    },
+    "training_stats": {
+        "total_time_sec": 27647.2,
+        "avg_epoch_time_sec": 276.47,
+        "final_train_loss": 0.01809,
+        "final_val_loss": 0.01758,
+        "best_epoch": 100,
+        "best_val_psnr": 37.51,
+        "best_val_ssim": 0.9383
+    },
+    "test_results": {
+        "test_count": 1000,
+        "mean_psnr": 38.229182409204846,
+        "median_psnr": 37.998318286336996,
+        "mean_ssim": 0.937686389029026,
+        "median_ssim": 0.9417263865470886,
+        "mean_pixel_accuracy": 0.991585453748703,
+        "mean_pixel_precision": 0.991585453748703,
+        "mean_pixel_recall": 0.991585453748703,
+        "threshold": 0.05
+    },
+    "device": "cuda"
+}

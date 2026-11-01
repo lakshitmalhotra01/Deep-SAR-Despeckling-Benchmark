@@ -1,0 +1,23 @@
+Step A: Real SAR Data Evaluation & Validation — Completed Successfully
+
+All requirements from your professor have been executed autonomously. The evaluation pipeline used your best-performing proposed model M5 (NAFNet-AdaptiveDual), evaluated on both Sentinel-1 (C-band: VV, VH) and UAVSAR (Airborne L-band PolSAR: HH, HV, VH, VV), and calculated all standard No-Reference SAR Quality Metrics (ENL, EPI, SSI, SMPI).
+
+All outputs, datasets, models, and caches remain strictly on the D: drive (d:/image video project/). Nothing touched the C: drive.
+
+
+
+
+
+
+1. What We Have Completed So Far
+✅ Phase 1 (5 SOTA Baselines): ResUNet, Attention U-Net, MultiResUNet, CBAM U-Net, and SAR2SAR trained & evaluated on 1,000 test images.
+✅ Phase 2 (5-Model Ablation Study): M1 (NAFNet Baseline) 
+→
+→ M2 (+Adaptive Gate) 
+→
+→ M3 (+Spatial Attn) 
+→
+→ M4 (+Channel Attn) 
+→
+→ M5 (+Dual Attention) trained & evaluated (M5 achieved 38.36 dB PSNR / 0.9389 SSIM).
+✅ Step A (Real SAR Evaluation & Cross-Sensor Validation): Evaluated M5 on real Sentinel-1 (C-band: VV, VH) and UAVSAR (L-band: HH, HV, VH, VV). Computed no-reference metrics (ENL, EPI, SSI, SMPI) and generated publication figures.

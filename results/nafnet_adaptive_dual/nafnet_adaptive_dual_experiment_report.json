@@ -1,0 +1,32 @@
+{
+    "model_name": "NAFNet-AdaptiveDual",
+    "phase": 2,
+    "model_id": "M5",
+    "total_parameters": 2910871,
+    "epochs_completed": 100,
+    "best_epoch": 100,
+    "best_val_psnr": 38.402,
+    "best_val_ssim": 0.9396,
+    "total_training_time_seconds": 30554.5,
+    "avg_epoch_time_seconds": 305.545,
+    "loss_type": "CombinedL1SSIMLoss (0.84*L1 + 0.16*(1-SSIM))",
+    "optimizer": "AdamW (lr=5e-4, wd=1e-4)",
+    "scheduler": "CosineAnnealingLR (T_max=100)",
+    "hardware": "cuda",
+    "test_results": {
+        "mean_psnr": 38.35681528214916,
+        "median_psnr": 38.0977529841705,
+        "std_psnr": 2.9559254373750483,
+        "min_psnr": 26.20351397097851,
+        "max_psnr": 51.819619472867515,
+        "mean_ssim": 0.9389020764827728,
+        "median_ssim": 0.9432068169116974,
+        "std_ssim": 0.027600618511108687,
+        "min_ssim": 0.8211193084716797,
+        "max_ssim": 0.995341956615448,
+        "mean_pixel_accuracy": 0.9920666093230247,
+        "mean_pixel_precision": 0.9920666093230247,
+        "mean_pixel_recall": 0.9920666093230247,
+        "total_test_images": 1000
+    }
+}

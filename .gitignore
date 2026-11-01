@@ -1,0 +1,39 @@
+# ==========================================
+# Git Ignore for Satellite / SAR Denoising
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Caches and Temp folders (isolated to D: drive)
+.cache/
+.temp/
+*.log
+
+# Heavy Image Datasets (S2Looking Optical Dataset ~5.4 GB)
+# In accordance with standard ML practice, large training/val/test images
+# should be downloaded via script/zenodo/drive links, not tracked by git.
+train/Image1/
+train/
+val/Image1/
+val/
+test/Image1/
+test/
+
+# PyTorch Model Checkpoints (> 100MB strictly rejected by GitHub)
+# Use GitHub Releases, HuggingFace, or Google Drive for sharing .pth checkpoints.
+checkpoints/*.pth
+!checkpoints/README.md
+
+# Virtual environments / OS specific files
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
