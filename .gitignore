@@ -13,7 +13,7 @@ __pycache__/
 .temp/
 *.log
 
-# Heavy Image Datasets (S2Looking Optical Dataset ~5.4 GB)
+# Heavy Image Datasets (S2Looking Optical Dataset ~5.4 GB and Raw SAR Data)
 # In accordance with standard ML practice, large training/val/test images
 # should be downloaded via script/zenodo/drive links, not tracked by git.
 train/Image1/
@@ -22,6 +22,8 @@ val/Image1/
 val/
 test/Image1/
 test/
+data/
+*.lnk
 
 # PyTorch Model Checkpoints (> 100MB strictly rejected by GitHub)
 # Use GitHub Releases, HuggingFace, or Google Drive for sharing .pth checkpoints.

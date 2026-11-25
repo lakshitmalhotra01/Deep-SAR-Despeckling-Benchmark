@@ -1,0 +1,486 @@
+{
+  "ResUNet": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 0.596,
+      "EPI": 0.9207,
+      "SSI": 1.7315,
+      "SMPI": 0.259
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 0.627,
+      "EPI": 0.9248,
+      "SSI": 2.0196,
+      "SMPI": 0.203
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.093,
+      "EPI": 0.9439,
+      "SSI": 0.7885,
+      "SMPI": 1.745
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 1.712,
+      "EPI": 0.9303,
+      "SSI": 0.7418,
+      "SMPI": 2.059
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 1.653,
+      "EPI": 0.9291,
+      "SSI": 0.7501,
+      "SMPI": 2.227
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 2.201,
+      "EPI": 0.9426,
+      "SSI": 0.7893,
+      "SMPI": 1.814
+    }
+  },
+  "Attention-UNet": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 0.746,
+      "EPI": 0.9482,
+      "SSI": 1.4403,
+      "SMPI": 0.324
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 0.859,
+      "EPI": 0.9469,
+      "SSI": 1.5574,
+      "SMPI": 0.278
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.34,
+      "EPI": 0.947,
+      "SSI": 0.7672,
+      "SMPI": 1.95
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 1.745,
+      "EPI": 0.9433,
+      "SSI": 0.7486,
+      "SMPI": 2.1
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 1.667,
+      "EPI": 0.9421,
+      "SSI": 0.7575,
+      "SMPI": 2.246
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 2.468,
+      "EPI": 0.9478,
+      "SSI": 0.7755,
+      "SMPI": 2.034
+    }
+  },
+  "MultiResUNet": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 0.941,
+      "EPI": 0.9479,
+      "SSI": 1.3193,
+      "SMPI": 0.409
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 1.055,
+      "EPI": 0.9467,
+      "SSI": 1.4486,
+      "SMPI": 0.341
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.769,
+      "EPI": 0.9377,
+      "SSI": 0.7083,
+      "SMPI": 2.308
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 2.508,
+      "EPI": 0.9331,
+      "SSI": 0.6322,
+      "SMPI": 3.017
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 2.449,
+      "EPI": 0.9321,
+      "SSI": 0.6398,
+      "SMPI": 3.299
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 2.922,
+      "EPI": 0.9378,
+      "SSI": 0.7096,
+      "SMPI": 2.407
+    }
+  },
+  "CBAM-UNet": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 0.89,
+      "EPI": 0.9326,
+      "SSI": 1.3268,
+      "SMPI": 0.387
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 0.904,
+      "EPI": 0.9332,
+      "SSI": 1.6947,
+      "SMPI": 0.292
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.524,
+      "EPI": 0.9381,
+      "SSI": 0.7417,
+      "SMPI": 2.104
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 2.179,
+      "EPI": 0.9227,
+      "SSI": 0.6789,
+      "SMPI": 2.621
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 2.098,
+      "EPI": 0.924,
+      "SSI": 0.6924,
+      "SMPI": 2.826
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 2.643,
+      "EPI": 0.9373,
+      "SSI": 0.7459,
+      "SMPI": 2.178
+    }
+  },
+  "SAR2SAR": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 0.861,
+      "EPI": 0.9325,
+      "SSI": 1.2457,
+      "SMPI": 0.374
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 0.963,
+      "EPI": 0.9369,
+      "SSI": 1.41,
+      "SMPI": 0.312
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.55,
+      "EPI": 0.9444,
+      "SSI": 0.7322,
+      "SMPI": 2.125
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 2.143,
+      "EPI": 0.9308,
+      "SSI": 0.66,
+      "SMPI": 2.578
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 2.071,
+      "EPI": 0.9304,
+      "SSI": 0.6703,
+      "SMPI": 2.79
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 2.69,
+      "EPI": 0.9427,
+      "SSI": 0.7325,
+      "SMPI": 2.216
+    }
+  },
+  "M1-NAFNet-Base": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 1.552,
+      "EPI": 0.9261,
+      "SSI": 1.009,
+      "SMPI": 0.674
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 1.777,
+      "EPI": 0.9252,
+      "SSI": 1.1453,
+      "SMPI": 0.575
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.994,
+      "EPI": 0.9393,
+      "SSI": 0.6973,
+      "SMPI": 2.496
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 2.761,
+      "EPI": 0.9257,
+      "SSI": 0.5972,
+      "SMPI": 3.322
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 2.64,
+      "EPI": 0.9248,
+      "SSI": 0.6053,
+      "SMPI": 3.557
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 3.362,
+      "EPI": 0.9363,
+      "SSI": 0.6865,
+      "SMPI": 2.77
+    }
+  },
+  "M2-NAFNet-AGM": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 1.524,
+      "EPI": 0.9296,
+      "SSI": 1.042,
+      "SMPI": 0.662
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 1.788,
+      "EPI": 0.93,
+      "SSI": 1.1814,
+      "SMPI": 0.579
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.944,
+      "EPI": 0.942,
+      "SSI": 0.7077,
+      "SMPI": 2.454
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 2.762,
+      "EPI": 0.9304,
+      "SSI": 0.6047,
+      "SMPI": 3.323
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 2.654,
+      "EPI": 0.9287,
+      "SSI": 0.6124,
+      "SMPI": 3.576
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 3.368,
+      "EPI": 0.9393,
+      "SSI": 0.6983,
+      "SMPI": 2.775
+    }
+  },
+  "M3-NAFNet-SAM": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 1.431,
+      "EPI": 0.931,
+      "SSI": 1.0328,
+      "SMPI": 0.621
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 1.582,
+      "EPI": 0.9306,
+      "SSI": 1.1768,
+      "SMPI": 0.512
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 3.022,
+      "EPI": 0.9432,
+      "SSI": 0.693,
+      "SMPI": 2.519
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 2.924,
+      "EPI": 0.932,
+      "SSI": 0.592,
+      "SMPI": 3.518
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 2.768,
+      "EPI": 0.9318,
+      "SSI": 0.6012,
+      "SMPI": 3.73
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 3.455,
+      "EPI": 0.9408,
+      "SSI": 0.6817,
+      "SMPI": 2.847
+    }
+  },
+  "M4-NAFNet-CAM": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 1.442,
+      "EPI": 0.9423,
+      "SSI": 1.0731,
+      "SMPI": 0.626
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 1.667,
+      "EPI": 0.9414,
+      "SSI": 1.2356,
+      "SMPI": 0.54
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.648,
+      "EPI": 0.9486,
+      "SSI": 0.7298,
+      "SMPI": 2.208
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 2.375,
+      "EPI": 0.9417,
+      "SSI": 0.6366,
+      "SMPI": 2.857
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 2.303,
+      "EPI": 0.9401,
+      "SSI": 0.6469,
+      "SMPI": 3.103
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 2.959,
+      "EPI": 0.9473,
+      "SSI": 0.7186,
+      "SMPI": 2.438
+    }
+  },
+  "M5-NAFNet-Dual*": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 1.52,
+      "EPI": 0.9336,
+      "SSI": 1.0631,
+      "SMPI": 0.66
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 1.777,
+      "EPI": 0.9344,
+      "SSI": 1.2088,
+      "SMPI": 0.575
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.786,
+      "EPI": 0.9447,
+      "SSI": 0.719,
+      "SMPI": 2.323
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 2.441,
+      "EPI": 0.9324,
+      "SSI": 0.6219,
+      "SMPI": 2.937
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 2.404,
+      "EPI": 0.9314,
+      "SSI": 0.632,
+      "SMPI": 3.239
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 3.099,
+      "EPI": 0.9419,
+      "SSI": 0.7078,
+      "SMPI": 2.553
+    }
+  },
+  "UNet-Autoencoder": {
+    "S1_VV": {
+      "ENL_in": 2.304,
+      "ENL_out": 0.851,
+      "EPI": 0.9229,
+      "SSI": 1.2869,
+      "SMPI": 0.369
+    },
+    "S1_VH": {
+      "ENL_in": 3.089,
+      "ENL_out": 0.905,
+      "EPI": 0.9234,
+      "SSI": 1.5312,
+      "SMPI": 0.293
+    },
+    "UAVSAR_HH": {
+      "ENL_in": 1.2,
+      "ENL_out": 2.385,
+      "EPI": 0.94,
+      "SSI": 0.7532,
+      "SMPI": 1.988
+    },
+    "UAVSAR_HV": {
+      "ENL_in": 0.831,
+      "ENL_out": 1.975,
+      "EPI": 0.9296,
+      "SSI": 0.6844,
+      "SMPI": 2.375
+    },
+    "UAVSAR_VH": {
+      "ENL_in": 0.742,
+      "ENL_out": 1.894,
+      "EPI": 0.9286,
+      "SSI": 0.6955,
+      "SMPI": 2.552
+    },
+    "UAVSAR_VV": {
+      "ENL_in": 1.214,
+      "ENL_out": 2.702,
+      "EPI": 0.9382,
+      "SSI": 0.747,
+      "SMPI": 2.226
+    }
+  }
+}
